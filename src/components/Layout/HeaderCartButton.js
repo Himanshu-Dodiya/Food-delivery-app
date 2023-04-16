@@ -13,7 +13,7 @@ const numberOfCartItems = cartCtx.items.reduce((currNumber,item)=>{
         <CartIcon />
       </span>
       <span>Your Cart</span>
-      <span className={styles.badge}>{cartCtx.numberOfCartItems}</span>
+      <span className={styles.badge}>{numberOfCartItems}</span>
     </button>
   );
 };
